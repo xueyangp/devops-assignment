@@ -1,0 +1,18 @@
+- name: Discord notification
+  env:
+    DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+  uses: Ilshidur/action-discord@master
+  with:
+    args: 'The project {{ EVENT_PAYLOAD.repository.full_name }} has been deployed.'
+    
+    
+    https://discord.com/api/webhooks/833345897911156756/2XX0z0KqLY0pUdFjLOpMcs5ig4ZBwskPBCAj3mSNNvnB_u-oQM358qZk5yqWjp2jFCh-
+    
+    
+- name: Test Success
+    uses: rjstone/discord-webhook-notify@v1
+    if: success()
+    with:
+        severity: info
+        details: Test Succeeded!
+        webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
