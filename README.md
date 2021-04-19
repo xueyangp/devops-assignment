@@ -11,10 +11,9 @@ The demo button
 #### Files Required:
 1. main.js
 2. accounts.js
-3. database.js
-4. index_WORKING_v2.html
-5. script_WORKING_v2.js
-6. style.css
+3. index_WORKING_v2.html
+4. script_WORKING_v2.js
+5. style.css
 
 #### To Run:
 1) Download files and extract to directory
