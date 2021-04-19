@@ -1,7 +1,7 @@
 # DevOps Assignment - April 2021
 
 This is a respository for DevOps Build, Deploy and Monitor - Assignment.
-All updates and changes are sent to a [Discord channel](https://discord.gg/YQkeJAQS7U)
+All updates and changes are sent to a [Discord channel](https://discord.gg/9DURXVr3M9)
 
 ## About
 Contained in this repository are the files required to run a application component for Group 6's NUS Money Project.
