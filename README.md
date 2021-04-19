@@ -29,3 +29,4 @@ The demo button
 2) Demo: User's View
       * A first name entry is required to be entered in the form fill box before clicking on the function button.
       * Clicking on this button filters the account information belonging to the user
+<img src="https://github.com/xyangp/devops-assignment/blob/d613d48521e7df6880102ca30f6b953a915126fb/Screenshot%202021-04-19%20191846.png"  height="200">
