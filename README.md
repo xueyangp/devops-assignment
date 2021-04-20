@@ -10,6 +10,7 @@ Experimenting with the marketplace's discord integrations did not work initially
 Discord settings can be set within discord, such as creating new webhooks and changing settings for the permissions.
 Limit was set to 25 for the number of time the invitation ![link](https://discord.gg/9DURXVr3M9) can be used.
 I might want to customise the discord messages in the future.
+
 <img src="https://github.com/xyangp/devops-assignment/blob/fa1ba90b8bce400c9e470132d653195b1250ee24/Screenshot%202021-04-20%20175632.png"  height="350">
 
 ## Files
@@ -18,20 +19,19 @@ Originally, the files were used and tested in VSC. To run the the files as a tes
 it requires some changes.
 #### Changes:
 1. Had to remove the *database.js* file that contained the mySQL server properties for connection to the SQL server for querying of the needed data.
-   * This file is necessary for querying live data from SQL server, but for the purpose of demonstraiton, mock server is enough.
-   * 
+   * This file is necessary for querying live data from SQL server, but for the purpose of demonstration, mock server is sufficient.
 2. Commented out line 1 in *accounts.js* since this line is redundent and will throw an error since the file is absent.
 ```javascript
-   const database = require("./database.js");
+  const database = require("./database.js");
 ``` 
 4. Changed the link in *script_WORKING_v2.js* to query from a Postman mock server instead.
 ```javascript
-function getFromServer(){
-  // $.getJSON('http://localhost:3000/database', function(database) {
-  $.getJSON('https://583d562a-3646-4c43-ae04-47aff88479b3.mock.pstmn.io/database', function(database) {      
-    AccountsDatabase = database;
-  });
-}
+  function getFromServer(){
+    // $.getJSON('http://localhost:3000/database', function(database) {
+    $.getJSON('https://583d562a-3646-4c43-ae04-47aff88479b3.mock.pstmn.io/database', function(database) {      
+      AccountsDatabase = database;
+    });
+  }
 ```
 
 6. Added testScript.js for workflow run. (See below under **Workflow**)
@@ -44,6 +44,7 @@ Originally used to run in VSC, the express service method `service.listen(3000);
 This file cannot be used for a workflow run directly, so a new file had to be created for this purpose.
 Using *testScript.js*, this allow a test run and connection using the other JS files, *accounts.js* to be tested within the workflow.
 Any changes to the name of the script that is to be run in the workflow has to be changed in *package.json*.
+A succcessful run test of the test script will be indicated in discord.
 
 ## Required Files:
 1. main.js
