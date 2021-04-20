@@ -6,8 +6,8 @@
   "scripts": {
     "test": "node main.js"
   },
-  "repository": "github:xyangp/devops-assignment"
-  "author": "",
+  "repository": "github:xyangp/devops-assignment",
+  "author": "pxy",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
