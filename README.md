@@ -36,7 +36,7 @@ it requires some changes.
 
 6. Added testScript.js for workflow run. (See below under **Workflow**)
 
-Not sure if I am able to utilise the github secrets to store the server information, may want to explore in the future.
+For future: Explore github secrets for storing server properties.
 
 ## Workflow
 I created a workflow originally to test the *main.js* file within the repository.
