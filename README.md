@@ -7,7 +7,7 @@ Linked a discord webhook to the repository so that all actions such as push and 
 This allows me not having to view the github's action workflow page every single time a test is needed.
 Experimenting with the marketplace's discord integrations did not work initially, so I just implemented a standard webhook method.
 Discord settings can be set within discord, such as creating new webhooks and changing settings for the permissions.
-Limit was set to 25 for the number of invitation ![link](https://discord.gg/9DURXVr3M9) uses.
+Limit was set to 25 for the number of invitation ![link](https://discord.gg/WhVDYUebNK) uses.
 I might want to customise the discord messages in the future.
 
 <img src="https://github.com/xyangp/devops-assignment/blob/fa1ba90b8bce400c9e470132d653195b1250ee24/Screenshot%202021-04-20%20175632.png"  height="350">
