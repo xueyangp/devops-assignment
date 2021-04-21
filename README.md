@@ -1,10 +1,9 @@
 # DevOps Assignment - April 2021
 
 This is a respository for DevOps Build, Deploy and Monitor - Assignment.
-All updates and changes are sent to a [Discord channel](https://discord.gg/9DURXVr3M9)
 
 ## Discord Messaging Update Feature:
-I linked a discord webhook to the repository so that all actions such as push and pull requests can also be monitored in discord.
+Linked a discord webhook to the repository so that all actions such as push and pull requests can also be monitored in discord.
 This allows me not having to view the github's action workflow page every single time a test is needed.
 Experimenting with the marketplace's discord integrations did not work initially, so I just implemented a standard webhook method.
 Discord settings can be set within discord, such as creating new webhooks and changing settings for the permissions.
