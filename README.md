@@ -13,7 +13,7 @@ I might want to customise the discord messages in the future.
 
 <img src="https://github.com/xyangp/devops-assignment/blob/fa1ba90b8bce400c9e470132d653195b1250ee24/Screenshot%202021-04-20%20175632.png"  height="350">
 
-## Files
+## File Changes
 Contained in this repository are the files required to run one of the application components for the NUS Money Project.
 Originally, the files were used and tested in VSC. To run the the files as a test workflow in github actions,
 it requires some changes.
